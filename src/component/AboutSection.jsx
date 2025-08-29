@@ -9,10 +9,10 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
+                    <h3 className="text-2xl font-semibold">Passionate Full-Stack Developer</h3>
 
                     <p className="text-muted-foregrond">
-                        With over 1 years of experience in web development, I specialize in creating responsive,
+                        With over 2 years of experience in web development, I specialize in creating responsive,
                         accessible, and performant web applications using modern technologies.
                     </p>
 
@@ -27,7 +27,11 @@ export const AboutSection = () => {
                             Get In Touch
                         </a>
 
-                        <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                        <a
+                            href="/Charith_CV.pdf"
+                            download="Charith_CV.pdf"
+                            className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                        >
                             Download CV
                         </a>
                     </div>

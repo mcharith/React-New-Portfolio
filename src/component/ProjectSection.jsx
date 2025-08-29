@@ -1,13 +1,18 @@
 import watchStoreImg from "../assets/projects/watch-store.png";
 import wineStoreImg from "../assets/projects/wine-store-management.png";
 import onlineBusImg from "../assets/projects/online-bus-seat-reservation.png";
+import utaxImg from "../assets/projects/utax-cover.png";
+import libraryImg from "../assets/projects/library-management-system.png";
 import {ArrowRight, ExternalLink, Github} from "lucide-react";
 
 const projects = [
     {
         id: 1,
         title: 'Wine Store Management System',
-        description:" This is a Wine Store management application using Java,JavaFx and MySQL.",
+        description:"I created a Wine Store Management System using Java (JavaFX) for the frontend and MySQL as the\n" +
+            "database. The system allows store owners to manage inventory, track sales, handle customer details, and\n" +
+            "generate reports efficiently.With its intuitive interface and reliable backend, the application streamlines\n" +
+            "daily operations and improves overall store management.",
         image: wineStoreImg,
         tags:["Java","MySQL"],
         demoUrl:"#",
@@ -16,19 +21,51 @@ const projects = [
     {
         id: 2,
         title: 'Online Watch Store Web Application',
-        description:"This is an Online buy Watch Web application using servlet,JSP and MySQL.",
+        description:"I developed an Online Clock Store E-commerce Web Application using JSP (JavaServer Pages) " +
+            "for the frontend and backend integration. The system allows users to browse clocks, add products to " +
+            "the cart, place orders, and manage their accounts seamlessly. Key features include product management, " +
+            "secure user authentication, and order tracking.",
         image: watchStoreImg,
         tags:["Java","MySQL"],
         demoUrl:"#",
         githubUrl:"#",
     },
     {
-        id: 1,
+        id: 3,
         title: 'Online Bus Reservation Web Application',
-        description:"Online Bus seat reservation Web application using Spring-Boot, JWT and MySQL.",
+        description:"I developed an Online Bus Seat Reservation Web Application using Spring Boot for the backend and\n" +
+            "MySQL as the database. The system enables passengers to search for buses, reserve seats, and generate\n" +
+            "e-tickets instantly after booking. It also includes a reminder feature that notifies passengers about their\n" +
+            "upcoming trips.",
         image: onlineBusImg,
         tags:["Spring-Boot","JWT","MySQL"],
         demoUrl:"#",
+        githubUrl:"#",
+    },
+    {
+        id: 4,
+        title: 'Library Management System',
+        description:"Efficiently manage books, readers, and borrowing records. The system allows librarians to add,\n" +
+            " and delete books, while users can browse available books, borrow them, and track their return\n" +
+            "status. Key features include real-time book availability updates, user authentication, and an intuitive\n" +
+            "interface for administrators.By leveraging React for the frontend and Node.js with\n" +
+            "Express.js for the backend, connected to MongoDB for data storage, the system provides a seamless,\n" +
+            "responsive, and scalable solution for modern library operations.",
+        image: libraryImg,
+        tags:["MERN","JWT"],
+        demoUrl:"#",
+        githubUrl:"#",
+    },
+    {
+        id: 5,
+        title: 'Simplify Tax Assistant System',
+        description:"As part of my team project U-Tax, developed for the Circle Edge competition, we built a tax management\n" +
+            "solution using the MERN stack (MongoDB, Express.js, React, Node.js). The system was designed to help Sri\n" +
+            "Lankan taxpayers easily calculate and manage their taxes through a user-friendly interface and secure\n" +
+            "backend. This collaborative project showcased our ability to apply modern technologies in solving real-world problems, and our team was awarded Second Place 🥈 in the competition.",
+        image: utaxImg,
+        tags:["MERN","OCR","JWT"],
+        demoUrl:"https://urtaxcalculater.vercel.app",
         githubUrl:"#",
     }
 ]
