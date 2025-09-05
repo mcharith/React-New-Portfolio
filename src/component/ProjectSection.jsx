@@ -74,7 +74,8 @@ export const ProjectSection = () => {
     return <section id="projects" className="py-24 px-4 relative">
         <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                Recent <span className="text-primary"> Projects </span>
+                Recent <span className="bg-gradient-to-r from-[#FF5A57] via-[#E02F57] to-[#6700A3] bg-clip-text
+                    text-transparent opacity-0 animate-fade-in-delay-1"> Projects </span>
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -110,12 +111,12 @@ export const ProjectSection = () => {
 
                                     <a href={project.demoUrl}
                                        target="_blank"
-                                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                       className="text-foreground/80 hover:text-[#E02F57] transition-colors duration-300"
                                     ><ExternalLink size={20}/></a>
 
                                     <a href={project.githubUrl}
                                        target="_blank"
-                                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                       className="text-foreground/80 hover:text-[#6700A3] transition-colors duration-300"
                                     ><Github size={20}/></a>
                                 </div>
                             </div>

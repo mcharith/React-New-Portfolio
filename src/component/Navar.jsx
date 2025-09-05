@@ -1,6 +1,7 @@
 import {cn} from "@/lib/util.js";
 import {useEffect, useState} from "react";
 import {Menu,X} from "lucide-react";
+import {ThemeToggle} from "@/component/ThemeToggle.jsx";
 
 const navItems = [
     {name: "Home", href: "#hero"},
@@ -32,19 +33,27 @@ export const Navar = () => {
                href="#hero"
             >
                 <span className="relative z-10">
-                    <span className="text-glow text-foreground"> Charith </span> Siriwardana
+                    <span className="text-glow text-foreground"> Charith </span> <span className="bg-gradient-to-r from-[#FF5A57] via-[#E02F57] to-[#6700A3] bg-clip-text
+                    text-transparent opacity-0 animate-fade-in-delay-1">Siriwardana</span>
                 </span>
             </a>
 
             {/*desktop nav*/}
-            <div className="hidden md:flex space-x-8">
+            <div className="hidden md:flex items-center space-x-6">
                 {navItems.map((item, key) => (
-                    <a key={key} href={item.href} className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                    <a
+                        key={key}
+                        href={item.href}
+                        className="text-foreground/80 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r
+                 hover:from-[#FF5A57] hover:via-[#E02F57] hover:to-[#6700A3] transition-colors duration-600"
+                    >
                         {item.name}
                     </a>
                 ))}
-            </div>
 
+                {/* Theme toggle in navbar */}
+                <ThemeToggle />
+            </div>
 
             {/*mobile nav*/}
             <button
@@ -71,8 +80,10 @@ export const Navar = () => {
                             {item.name}
                         </a>
                     ))}
+                    <ThemeToggle className="mt-4" />
                 </div>
             </div>
+
 
         </div>
     </nav>
