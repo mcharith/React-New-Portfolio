@@ -1,8 +1,18 @@
 import {useState} from "react";
 import {cn} from "@/lib/util.js";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, FaGitAlt, FaFigma, FaDocker } from "react-icons/fa";
-import {SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiIntellijidea, SiWebstorm} from "react-icons/si";
+import {
+    SiTypescript,
+    SiTailwindcss,
+    SiExpress,
+    SiMongodb,
+    SiMysql,
+    SiIntellijidea,
+    SiWebstorm,
+    SiFirebase, SiReact
+} from "react-icons/si";
 import {VscVscodeInsiders} from "react-icons/vsc";
+import {FaFireBurner} from "react-icons/fa6";
 
 const skills = [
     {name: "HTML", category: "frontend", icon: <FaHtml5 className="h-8 w-8 text-[#E34F26]" />},
@@ -11,12 +21,14 @@ const skills = [
     {name: "React", category: "frontend", icon: <FaReact className="h-8 w-8 text-[#61DAFB]" />},
     {name: "TypeScript", category: "frontend", icon: <SiTypescript className="h-8 w-8 text-[#3178C6]" />},
     {name: "Tailwind CSS", category: "frontend", icon: <SiTailwindcss className="h-8 w-8 text-[#38BDF8]" />},
+    {name: "React Native", category: "frontend", icon: <SiReact className="h-8 w-8 text-[#61DAFB]" />},
 
     {name: "Node.js", category: "backend", icon: <FaNodeJs className="h-8 w-8 text-[#339933]" />},
     {name: "Express", category: "backend", icon: <SiExpress className="h-8 w-8 text-[#000000]" />},
     {name: "MongoDB", category: "backend", icon: <SiMongodb className="h-8 w-8 text-[#47A248]" />},
     {name: "MySQL", category: "backend", icon: <SiMysql className="h-8 w-8 text-[#4479A1]" />},
     {name: "Java", category: "backend", icon: <FaJava className="h-8 w-8 text-[#007396]" />},
+    {name: "Firebase", category: "backend", icon: <SiFirebase className="h-8 w-8 text-[#FFCA28]" />},
 
     {name: "Git/GitHub", category: "tools", icon: <FaGitAlt className="h-8 w-8 text-[#F05032]" />},
     {name: "IntelliJ IDEA", category: "tools", icon: <SiIntellijidea className="h-8 w-8 text-[#000000]" />},
