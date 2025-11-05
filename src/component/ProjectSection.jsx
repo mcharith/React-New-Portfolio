@@ -3,6 +3,7 @@ import wineStoreImg from "../assets/projects/wine-store-management.png";
 import onlineBusImg from "../assets/projects/online-bus-seat-reservation.png";
 import utaxImg from "../assets/projects/utax-cover.png";
 import libraryImg from "../assets/projects/library-management-system.png";
+import expensio from "../assets/projects/expensio.png";
 import {ArrowRight, ExternalLink, Github} from "lucide-react";
 
 const projects = [
@@ -65,6 +66,21 @@ const projects = [
             "backend. This collaborative project showcased our ability to apply modern technologies in solving real-world problems, and our team was awarded Second Place 🥈 in the competition.",
         image: utaxImg,
         tags:["MERN","OCR","JWT"],
+        demoUrl:"https://urtaxcalculater.vercel.app",
+        githubUrl:"#",
+    },
+    {
+        id: 6,
+        title: 'Expenses Tracker App',
+        description:"Developed a cross-platform mobile application using React Native, Firebase, and CSS to help users " +
+            "efficiently manage their personal finances. The app allows users to securely create accounts and log in " +
+            "through Firebase Authentication, add and categorize expenses, and view their spending habits through " +
+            "interactive bar graphs and charts. It also provides an automatically generated monthly summary, financial" +
+            "patterns and helping them make informed budgeting decisions. " +
+            "The application features real-time data synchronization using Firebase Firestore, a clean and responsive " +
+            "user interface.",
+        image: expensio,
+        tags:["React Native","Firebase","CSS"],
         demoUrl:"https://urtaxcalculater.vercel.app",
         githubUrl:"#",
     }
