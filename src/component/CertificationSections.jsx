@@ -1,4 +1,5 @@
 import Sololearn_Java from "@/assets/certificates/551b6764-3aa6-4617-8a4d-03b6d6ab194d.jpg";
+import Sololearn_web_dev from "@/assets/certificates/62ebd1fb-1dce-49f4-a3bf-4fcf9cfa63a6.jpg";
 import hackerRank_se_intern from "@/assets/certificates/Screenshot 2025-11-05 at 14.05.41.png";
 
 const certificates = [
@@ -9,7 +10,7 @@ const certificates = [
     },
     {
         id: 2,
-        image: Sololearn_Java,
+        image: Sololearn_web_dev,
         title: "Web Development Certificate - SoloLearn.com",
     },
     {
