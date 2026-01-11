@@ -15,8 +15,10 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I’m a passionate Software Engineering student based in Sri Lanka, with hands-on experience in both
-                    frontend and backend development. As a full-stack developer.
+                    I am an Intern Software Engineer at All In One Holding (Pvt) Ltd, specializing in full-stack web
+                    development. I have hands-on experience working with frontend technologies and backend frameworks
+                    to build responsive, secure, and efficient applications. I’m highly motivated to learn, adapt, and
+                    contribute to real-world software solutions.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
