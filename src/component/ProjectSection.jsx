@@ -120,7 +120,9 @@ export const ProjectSection = () => {
                                 {project.title}
                             </h3>
 
-                            <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
+                                <p className="text-muted-foreground text-sm mb-4 text-justify leading-relaxed">
+                                    {project.description}
+                                </p>
 
                             <div className="flex justify-between items-center">
                                 <div className="flex space-x-3">
