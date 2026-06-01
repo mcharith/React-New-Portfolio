@@ -29,7 +29,7 @@ export const AboutSection = () => {
                         </a>
 
                         <a
-                            href="/Charith_CV.pdf"
+                            href="/charith-siriwardana-cv.pdf"
                             download="Charith_CV.pdf"
                             className="px-6 py-2 rounded-full border-[1px] border-red-400
                             bg-gradient-to-r from-[#FF5A57] via-[#E02F57] to-[#6700A3] bg-clip-text text-transparent

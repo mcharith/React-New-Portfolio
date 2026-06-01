@@ -15,10 +15,11 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    I am an Intern Software Engineer at All In One Holding (Pvt) Ltd, specializing in full-stack web
-                    development. I have hands-on experience working with frontend technologies and backend frameworks
-                    to build responsive, secure, and efficient applications. I’m highly motivated to learn, adapt, and
-                    contribute to real-world software solutions.
+                    I am a passionate Software Engineer with industry experience in full-stack development. Throughout
+                    my professional journey, I have contributed to the development of modern web applications, working
+                    across frontend, backend, database, and deployment environments. I enjoy transforming ideas into
+                    reliable software solutions and continuously improving my skills to stay aligned with evolving
+                    technologies.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-4">
